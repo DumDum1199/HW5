@@ -42,27 +42,27 @@ public class Main {
         }
 
 
-                // Задача 4//
-                int deliveryDistance = 19;
-                if (deliveryDistance <= 20) {
-                    System.out.println("Потребуется дней: 1");
-                } else if (deliveryDistance <= 60) {
-                    System.out.println("Потребуется дней: 2");
-                } else if (deliveryDistance <= 100) {
-                    System.out.println("Потребуется дней: 3");
-                } else {
-                    System.out.println("Доставка не осуществляется");
-                }
+        // Задача 4//
+        int deliveryDistance = 19;
+        if (deliveryDistance <= 20) {
+            System.out.println("Потребуется дней: 1");
+        } else if (deliveryDistance <= 60) {
+            System.out.println("Потребуется дней: 2");
+        } else if (deliveryDistance <= 100) {
+            System.out.println("Потребуется дней: 3");
+        } else {
+            System.out.println("Доставка не осуществляется");
+        }
 
-                //Задача 5//
-                int monthNumber = 12;
-                switch (monthNumber) {
-                    case 1:
-                        System.out.println("Сейчас зима");
-                        break;
-                    case 2:
-                        System.out.println("Сейчас зима");
-                        break;
+        //Задача 5//
+        int monthNumber = 12;
+        switch (monthNumber) {
+            case 1:
+                System.out.println("Сейчас зима");
+                break;
+                case 2:
+                    System.out.println("Сейчас зима");
+                    break;
                     case 12:
                         System.out.println("Сейчас зима");
                         break;
