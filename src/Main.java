@@ -27,16 +27,14 @@ public class Main {
         }
 
         //Задача 3//
-        int year = 1684;
-        boolean a = (year - 1584) % 100 == 0;
-        boolean b = (year - 1584) % 400 == 0;
-        boolean c = (year - 1584) % 4 == 0;
-        if (c == true&&a==false) {
+        int year = 1900;
+        boolean a = year  % 100 == 0;
+        boolean b = year  % 400 == 0;
+        boolean c = year  % 4 == 0;
+        if (year>1584&&b==true||c==true&&a==false) {
                 System.out.println("Год високосный");
             }
-        else if(b==true) {
-            System.out.println("Год високосный");
-        }
+
         else {
             System.out.println("Год не високосный");
         }
