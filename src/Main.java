@@ -32,7 +32,7 @@ public class Main {
         boolean b = year  % 400 == 0;
         boolean c = year  % 4 == 0;
         if ((year>1584&&b==true)||(year>1584&&c==true)&&a==false) {
-                System.out.println("Год високосный");
+                System.out.println("Год  високосный");
             }
 
         else {
